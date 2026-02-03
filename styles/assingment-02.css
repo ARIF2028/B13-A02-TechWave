@@ -412,6 +412,24 @@ footer p {
     }
 
     /* hero   */
+    .circle-img {
+        width: 302px;
+        height: 302px;
+        /* margin-top: 30px;
+    margin-bottom: 30px; */
+    }
+
+    .microphone {
+        position: absolute;
+        top: 27%;
+        left: 28%;
+        /* height: 100px; */
+
+        transform: scale(70%);
+    }
+
+
+
     .btn-2 {
         margin-bottom: 10px;
     }
@@ -429,7 +447,12 @@ footer p {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 30px;
+        margin-left: 20px;
+    }
+
+    .card-title {
+        font-size: 3rem;
+
     }
 
     /* weav  */
@@ -472,7 +495,10 @@ footer p {
 
     /* podcast */
 
-
+    .podcast-card {
+        height: 430px;
+        width: 300px;
+    }
 
 
 
@@ -493,7 +519,7 @@ footer p {
         display: flex;
         flex-direction: column;
         /* justify-content: flex-start; */
-        width: 300px;
+        width: 250px;
         gap: 20px;
         align-items: center;
         border-radius: 32px;
