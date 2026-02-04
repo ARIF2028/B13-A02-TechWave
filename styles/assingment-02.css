@@ -401,6 +401,8 @@ footer p {
 
 @media screen and (max-width:576px) {
 
+
+
     /* nav-bar releted quary  */
     .nav-menu,
     #h-btn {
@@ -431,7 +433,7 @@ footer p {
 
 
     .btn-2 {
-        margin-bottom: 10px;
+        margin-top: 15px;
     }
 
     /* about  */
@@ -441,6 +443,12 @@ footer p {
 
     .about-title {
         padding-top: 30px;
+    }
+
+    .abouot-ditels,
+    .hero-description {
+        width: 350px;
+        margin: 0 auto;
     }
 
     .card-container {
@@ -456,27 +464,39 @@ footer p {
     }
 
     /* weav  */
-    .wave-choose,
+    /* .wave-choose,
     .about-container,
     .hero-container {
         padding: 15px;
+    } */
+
+    .pod-title {
+        padding-right: 15px;
+    }
+
+    .wave-choose {
+        /* width: 100%; */
+        padding: 35px;
     }
 
     .waev-cards {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 5px;
+        /* padding-left: 5px; */
     }
 
     .wave-card-1,
     .wave-card-2,
     .waev_coomon-cards {
         grid-column: span 1;
-        /* width: 300px; */
+        width: 310px;
+        /* width: 100%; */
         padding: 20px;
     }
 
+
+    /* podcast */
     .cards {
         /* display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -492,8 +512,6 @@ footer p {
         align-items: center;
         padding: 10px;
     }
-
-    /* podcast */
 
     .podcast-card {
         height: 430px;
@@ -526,10 +544,7 @@ footer p {
     }
 
 
-    footer {
-        /* background-image: url(../assets/footer-bg.png); */
-
-    }
+    /* footer  */
 
     .social {
         display: grid;
